@@ -28,19 +28,19 @@ const Header = () => {
       <div className="bg-gray-900 text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center text-sm">
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-2">
+            <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
                 <span>{formatPhoneNumber("+966 123 456 789", language)}</span>
               </div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
                 <span>info@sawawithpatient.com</span>
               </div>
             </div>
             <button
               onClick={toggleLanguage}
-              className="flex items-center space-x-2 hover:bg-gray-800 px-3 py-1 rounded transition-colors"
+              className="flex items-center gap-2 hover:bg-gray-800 px-3 py-1 rounded transition-colors"
             >
               <Globe className="h-4 w-4" />
               <span>{language === "en" ? "العربية" : "English"}</span>
