@@ -63,6 +63,13 @@ export const translations = {
     successRate: "Success Rate",
 
     // Services
+    servicesDescription:
+      "Comprehensive healthcare services designed to support you at every step of your medical journey.",
+    servicesDeliveryDescription:
+      "How we deliver healthcare support to patients in need",
+    serviceTitle: "Service Procedure",
+    medicalServicesDescription:
+      " Professional medical care and treatment options",
     medicalServices: "Medical Services",
     patientSupport: "Patient Support",
     wellnessPrograms: "Wellness Programs",
@@ -148,6 +155,81 @@ export const translations = {
     missionTitleFooter: "Join Our Mission",
     missionDescriptionFooter:
       "Be part of a community that transforms healthcare access for those who need it most.",
+    learnButton: " Get Involved",
+    learnSelect: " Learn About Services",
+
+    // Features
+
+    featureDescription1:
+      "Connect with qualified healthcare professionals from the comfort of your home.",
+    feature1a: "Video consultations",
+    feature1b: "Prescription services",
+    feature1c: "Follow-up care",
+    feature1d: "24/7 availability",
+    featureDescription2:
+      "Comprehensive diagnostic testing and health screenings.",
+    feature2a: "Laboratory tests",
+    feature2b: "Imaging services",
+    feature2c: "Health screenings",
+    feature2d: "Report analysis",
+    featureDescription3:
+      "Advanced surgical procedures and specialized treatments.",
+    feature3a: "Minimally invasive surgery",
+    feature3b: "Specialized treatments",
+    feature3c: "Pre-surgery consultation",
+    feature3d: "Post-operative care",
+    featureDescription4: "Comprehensive rehabilitation and recovery programs.",
+    feature4a: "Physical therapy",
+    feature4b: "Occupational therapy",
+    feature4c: "Recovery planning",
+    feature4d: "Progress monitoring",
+
+    // Services
+    servicesDescription1:
+      "Professional counseling and emotional support services.",
+    services1a: "Individual counseling",
+    services1b: "Group therapy",
+    services1c: "Crisis intervention",
+    services1d: "Mental health resources",
+    servicesDescription2:
+      "Financial guidance and assistance programs for medical expenses.",
+    services2a: "Insurance navigation",
+    services2b: "Payment plans",
+    services2c: "Financial counseling",
+    services2d: "Assistance programs",
+    servicesDescription3: "Educational resources and health literacy programs.",
+    services3a: "Health education",
+    services3b: "Treatment explanations",
+    services3c: "Self-care guidance",
+    services3d: "Family support",
+    servicesDescription4:
+      "Round-the-clock support for urgent questions and concerns.",
+    servicesTitle4: "24/7 Support Hotline",
+    services4a: "Emergency consultation",
+    services4b: "Medical advice",
+    services4c: "Appointment scheduling",
+    services4d: "Resource referrals",
+
+    serviceFooterTitle: "Ready to Get Started?",
+    serviceFooterDescription:
+      " Book an appointment or contact us for more information about our services.",
+
+    bookAppointment: "Book Appointment",
+    bookAppointmentDescription:
+      " Schedule your consultation with our medical professionals.",
+    bookAppointmentButton: "Schedule Now",
+
+    supportTitle: "Contact Support",
+    supportDescription:
+      " Speak with our support team for immediate assistance.",
+    supportButton: " Call Now",
+
+    // Funding
+
+    fundingDescription1:
+      "Direct financial contributions to support patient care and medical expenses.",
+    fundingDescription2:
+      "Medical equipment, supplies, and other essential resources for patient support.",
 
     // Contact
     contactForm: "Contact Form",
@@ -229,6 +311,11 @@ export const translations = {
     successRate: "معدل النجاح",
 
     // Services
+    servicesDescription:
+      "خدمات رعاية صحية شاملة مصممة لدعمك في كل خطوة من خطوات رحلتك الطبية.",
+    servicesDeliveryDescription: "كيف نقدم دعم الرعاية الصحية للمرضى المحتاجين",
+    serviceTitle: "إجراءات الخدمة",
+    medicalServicesDescription: " الرعاية الطبية المتخصصة وخيارات العلاج",
     medicalServices: "الخدمات الطبية",
     patientSupport: "دعم المرضى",
     wellnessPrograms: "برامج العافية",
@@ -308,9 +395,84 @@ export const translations = {
     missionDescriptionFooter:
       "كن جزءاً من مجتمع يعمل على تحويل الرعاية الصحية لمن هم في أمس الحاجة إليها.",
 
+    learnButton: " شارك معنا",
+    learnSelect: "تعرّف على الخدمات",
+
     ourVision: "رؤيتنا",
     ourValues: "قيمنا",
     ourTeam: "فريقنا",
+
+    //Feature
+
+    featureDescription1:
+      "تواصل مع متخصصي الرعاية الصحية المؤهلين من راحة منزلك.",
+    feature1a: "استشارات عبر الفيديو",
+    feature1b: "خدمات وصف الأدوية",
+    feature1c: "رعاية المتابعة",
+    feature1d: "متوفر على مدار الساعة",
+
+    featureDescription2: "اختبارات تشخيصية شاملة وفحوصات صحية.",
+    feature2a: "تحاليل مخبرية",
+    feature2b: "خدمات التصوير",
+    feature2c: "فحوصات صحية",
+    feature2d: "تحليل التقارير",
+
+    featureDescription3: "إجراءات جراحية متقدمة وعلاجات متخصصة.",
+    feature3a: "جراحة طفيفة التوغل",
+    feature3b: "علاجات متخصصة",
+    feature3c: "استشارة قبل الجراحة",
+    feature3d: "رعاية ما بعد الجراحة",
+
+    featureDescription4: "برامج شاملة لإعادة التأهيل والتعافي.",
+    feature4a: "العلاج الطبيعي",
+    feature4b: "العلاج الوظيفي",
+    feature4c: "تخطيط التعافي",
+    feature4d: "مراقبة التقدم",
+
+    // Services
+    servicesDescription1: "خدمات الاستشارة المهنية والدعم العاطفي.",
+    services1a: "استشارات فردية",
+    services1b: "العلاج الجماعي",
+    services1c: "التدخل في الأزمات",
+    services1d: "موارد الصحة النفسية",
+
+    servicesDescription2: "إرشادات مالية وبرامج مساعدة لتغطية النفقات الطبية.",
+    services2a: "إرشاد حول التأمين",
+    services2b: "خطط الدفع",
+    services2c: "استشارات مالية",
+    services2d: "برامج المساعدة",
+
+    servicesDescription3: "موارد تعليمية وبرامج لرفع الوعي الصحي.",
+    services3a: "التثقيف الصحي",
+    services3b: "شروحات العلاجات",
+    services3c: "إرشادات العناية الذاتية",
+    services3d: "دعم العائلة",
+
+    servicesDescription4:
+      "دعم متواصل على مدار الساعة للأسئلة والاهتمامات العاجلة.",
+    servicesTitle4: "خط الدعم المتاح 24/7",
+    services4a: "استشارة طارئة",
+    services4b: "نصائح طبية",
+    services4c: "جدولة المواعيد",
+    services4d: "إحالة إلى الموارد",
+
+    serviceFooterTitle: "هل أنت مستعد للبدء؟",
+    serviceFooterDescription:
+      "احجز موعدًا أو تواصل معنا لمزيد من المعلومات حول خدماتنا.",
+
+    bookAppointment: "حجز موعد",
+    bookAppointmentDescription: "حدد موعد استشارتك مع أطبائنا المتخصصين.",
+    bookAppointmentButton: "احجز الآن",
+
+    supportTitle: "الاتصال بالدعم",
+    supportDescription: "تحدث مع فريق الدعم لدينا للحصول على المساعدة الفورية.",
+    supportButton: "اتصل الآن",
+
+    // Funding
+
+    fundingDescription1:
+      "مساهمات مالية مباشرة لدعم رعاية المرضى وتغطية النفقات الطبية.",
+    fundingDescription2: "معدات طبية ولوازم وموارد أساسية أخرى لدعم المرضى.",
 
     // Contact
     contactForm: "نموذج الاتصال",
