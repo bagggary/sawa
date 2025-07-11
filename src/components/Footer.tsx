@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import {
-  Heart,
   Phone,
   Mail,
   MapPin,
@@ -9,6 +8,7 @@ import {
   Instagram,
   Linkedin,
 } from "lucide-react";
+import Logo from "../assets/SawaFinal.png";
 import { useLanguage } from "../contexts/LanguageContext";
 import { t, formatPhoneNumber } from "../utils/translations";
 
@@ -21,9 +21,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
-              <div className="bg-gray-100 p-2 rounded-full">
-                <Heart className="h-8 w-8 text-red-600" fill="#D9241C" />
+            <div className="flex items-center gap-2 mb-4">
+              <div className="h-8 w-8 bg-gray-100 rounded-full">
+                <img
+                  src={Logo}
+                  alt="sawawithpatient Logo"
+                  className="h-8 w-8"
+                />
               </div>
               <div>
                 <h3 className="text-xl font-bold">SawaWithPatient</h3>
@@ -34,26 +38,26 @@ const Footer = () => {
               {t("heroSubtitle", language)}
             </p>
             <div className="space-y-2">
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center gap-2">
                 <Phone
                   className="h-5 w-5 text-red-600"
                   style={{ color: "#D9241C" }}
                 />
-                <span>{formatPhoneNumber("+966 123 456 789", language)}</span>
+                <span>{formatPhoneNumber("+966 506478095", language)}</span>
               </div>
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center gap-2">
                 <Mail
                   className="h-5 w-5 text-red-600"
                   style={{ color: "#D9241C" }}
                 />
                 <span>info@sawawithpatient.org</span>
               </div>
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center gap-2">
                 <MapPin
                   className="h-5 w-5 text-red-600"
                   style={{ color: "#D9241C" }}
                 />
-                <span>Riyadh, Saudi Arabia</span>
+                <span>Taif, Saudi Arabia</span>
               </div>
             </div>
           </div>
@@ -111,10 +115,10 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {formatPhoneNumber("2024", language)} SawaWithPatient.{" "}
+              © {formatPhoneNumber("2025", language)} SawaWithPatient.
               {t("allRightsReserved", language)}.
             </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
+            <div className="flex gap-2 mt-4 md:mt-0">
               <Link
                 to="/privacy"
                 className="text-gray-400 hover:text-red-400 text-sm transition-colors"
