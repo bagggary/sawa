@@ -5,7 +5,10 @@ export const translations = {
     about: "About Us",
     services: "Services",
     resources: "Patient Resources",
-    blog: "Blog",
+    blog: "Gallery",
+    galleryTitle: "Gallery",
+    galleryDescription:
+      "Discover our impact through images that tell the story of hope, healing, and community support.",
     contact: "Contact Us",
     appointments: "Appointments",
     emergency: "Support",
@@ -240,6 +243,79 @@ export const translations = {
     message: "Message",
     sendMessage: "Send Message",
 
+    //Gallery
+
+    cat: "All Images",
+    cat1: "Al-Razi University",
+    cat2: "Al-Balk Omdurman Hospital",
+    cat3: "Eid al-Adha – Omdurman Hospital",
+    cat4: "Omdurman Teaching Hospital",
+    cat5: "General Assembly Photos",
+    razdescription1:
+      "Chairman of Al-Razi University Hospital making a donation to Sawa Organization.",
+    razdescription2:
+      "A volunteer explaining Sawa Organization's mission and goals.",
+    razdescription3:
+      "University students contributing donations to support Sawa Organization.",
+    razdescription4:
+      "Promotional image featuring the logo of Sawa Organization.",
+    razdescription5:
+      "Donation box placed at the university to collect contributions for Sawa.",
+    razdescription6:
+      "Students posing in front of the Sawa Organization banner.",
+    hosdescription1:
+      "Ramadan Iftar organized by Sawa Organization at Al-Bulk Hospital.",
+    hosdescription2: "Sawa volunteers assisting patients at the hospital.",
+    hosdescription3:
+      "Sawa volunteers supporting patients with care and attention.",
+    hosdescription4: "Sawa volunteers continuing their support for patients.",
+    hosdescription5: "Ongoing volunteer efforts by Sawa team in the hospital.",
+    hosdescription6: "Iftar meal box displaying the Sawa Organization logo.",
+    hosdescription7:
+      "Banner featuring the Sawa Organization logo displayed at the hospital.",
+    hosdescription8:
+      "Another view of the Sawa Organization banner at the hospital.",
+    eiddescription1: "Celebrating Eid with children at the hospital.",
+    eiddescription2:
+      "Sawa volunteers and patients together during Eid al-Adha.",
+    eiddescription3: "Sawa volunteers distributing gifts to patients.",
+    eiddescription4:
+      "More moments of Sawa volunteers giving gifts to patients.",
+    eiddescription5:
+      "Continued gift distribution by Sawa volunteers to patients.",
+
+    omdescription1: "Sawa volunteers distributing gifts to patients.",
+    omdescription2: "Sawa volunteers distributing gifts to patients.",
+    omdescription3: "Sawa volunteers distributing gifts to patients.",
+    omdescription4: "Sawa team in front of Omdurman Educational Hospital.",
+    omdescription5:
+      "Another photo of the Sawa team in front of Omdurman Educational Hospital.",
+    omdescription6: "Sawa volunteers distributing gifts to patients.",
+    omdescription7: "Sawa volunteers distributing gifts to patients.",
+    omdescription8: "Sawa volunteers distributing gifts to patients.",
+
+    metdescription1:
+      "Image showing the president and vice-president of the organization.",
+    metdescription2:
+      "Another image showing the president and vice-president of the organization.",
+    metdescription3: "Meeting of the organization in session.",
+    metdescription4: "The audience attending the organization’s meeting.",
+    metdescription5: "Image featuring the organization's banner.",
+
+    galleryTitleFooter: "Be Part of Our Story",
+    galleryDescriptionFooter:
+      " Join us in creating more moments of hope and healing in our community.",
+    galleryButton1: "Get Involved",
+    galleryButton2: "Learn More",
+
+    // Contact
+
+    contactDescription:
+      "We're here to help. Reach out to us for any questions, support, or assistance you need.",
+    subContactTitle: "Get in Touch",
+    subContactDescription:
+      " Our dedicated support team is available to assist you with any questions or concerns. Choose the most convenient way to reach us.",
+
     // Footer
     quickLinks: "Quick Links",
     followUs: "Follow Us",
@@ -253,7 +329,10 @@ export const translations = {
     about: "من نحن",
     services: "الخدمات",
     resources: "موارد المرضى",
-    blog: "المدونة",
+    blog: "معرض الصور",
+    galleryTitle: "المعرض",
+    galleryDescription:
+      "اكتشف تأثيرنا من خلال صور تحكي قصة الأمل والشفاء ودعم المجتمع.",
     contact: "اتصل بنا",
     appointments: "المواعيد",
     emergency: "الدعم",
@@ -483,6 +562,63 @@ export const translations = {
     message: "الرسالة",
     sendMessage: "إرسال الرسالة",
 
+    //GalleryCategories
+    cat: "جميع الصور",
+    cat1: "جامعه الرازي",
+    cat2: "مستشفي البلك ام درمان",
+    cat3: "عيد الاضحي المبارك ، مستشفي ام درمان",
+    cat4: "مستشقي ام درمان التعليمي",
+    cat5: "صور الجمعيه العمومية",
+
+    razdescription1: "رئيس مستشفى الرازي الجامعي يتبرع لمنظمة سوا.",
+    razdescription2: "متطوع يشرح أهداف ورؤية منظمة سوا.",
+    razdescription3: "طلاب الجامعة يتبرعون لدعم منظمة سوا.",
+    razdescription4: "صورة ترويجية تحتوي على شعار منظمة سوا.",
+    razdescription5: "صندوق التبرعات في الجامعة لصالح منظمة سوا.",
+    razdescription6: "صورة للطلاب أمام لافتة منظمة سوا.",
+    hosdescription1: "إفطار رمضاني نظمته منظمة سوا في مستشفى البلك.",
+    hosdescription2: "متطوعو منظمة سوا يساعدون المرضى في المستشفى.",
+    hosdescription3: "متطوعو سوا يقدمون الدعم والرعاية للمرضى.",
+    hosdescription4: "استمرار جهود متطوعي سوا في دعم المرضى.",
+    hosdescription5: "جهود متواصلة من فريق سوا التطوعي في المستشفى.",
+    hosdescription6: "علبة إفطار عليها شعار منظمة سوا.",
+    hosdescription7: "لافتة تحتوي على شعار منظمة سوا معلقة في المستشفى.",
+    hosdescription8: "عرض آخر للافتة شعار منظمة سوا في المستشفى.",
+    eiddescription1: "الاحتفال بعيد الأضحى مع الأطفال في المستشفى.",
+    eiddescription2: "متطوعو سوا مع المرضى خلال عيد الأضحى.",
+    eiddescription3: "متطوعو سوا يوزعون الهدايا على المرضى.",
+    eiddescription4:
+      "لحظات إضافية من توزيع الهدايا على المرضى بواسطة متطوعي سوا.",
+    eiddescription5: "استمرار توزيع الهدايا من قبل متطوعي سوا على المرضى.",
+
+    omdescription1: "متطوعو سوا يوزعون الهدايا على المرضى.",
+    omdescription2: "متطوعو سوا يوزعون الهدايا على المرضى.",
+    omdescription3: "متطوعو سوا يوزعون الهدايا على المرضى.",
+    omdescription4: "فريق سوا أمام مستشفى أم درمان التعليمي.",
+    omdescription5: "صورة أخرى لفريق سوا أمام مستشفى أم درمان التعليمي.",
+    omdescription6: "متطوعو سوا يوزعون الهدايا على المرضى.",
+    omdescription7: "متطوعو سوا يوزعون الهدايا على المرضى.",
+    omdescription8: "متطوعو سوا يوزعون الهدايا على المرضى.",
+
+    metdescription1: "صورة تُظهر رئيس ونائب رئيس المنظمة.",
+    metdescription2: "صورة أخرى تُظهر رئيس ونائب رئيس المنظمة.",
+    metdescription3: "اجتماع المنظمة أثناء الانعقاد.",
+    metdescription4: "الجمهور الحاضر في اجتماع المنظمة.",
+    metdescription5: "صورة تحتوي على لافتة المنظمة.",
+
+    galleryTitleFooter: "كن جزءًا من قصتنا",
+    galleryDescriptionFooter:
+      "انضم إلينا في صناعة المزيد من لحظات الأمل والشفاء في مجتمعنا.",
+    galleryButton1: "شارك معنا",
+    galleryButton2: "اعرف المزيد",
+
+    // Contact
+
+    contactDescription:
+      "نحن هنا لمساعدتك. تواصل معنا لأي استفسارات أو دعم أو مساعدة تحتاجها.",
+    subContactTitle: "تواصل معنا",
+    subContactDescription:
+      "فريق الدعم المخصص لدينا متاح لمساعدتك في أي استفسارات أو مخاوف. اختر الطريقة الأنسب للتواصل معنا.",
     // Footer
     quickLinks: "روابط سريعة",
     followUs: "تابعنا",
