@@ -421,13 +421,13 @@ const AboutPage = () => {
               className="bg-red-600 text-white px-8 py-4 rounded-full hover:bg-red-700 transition-colors duration-300 font-medium text-lg shadow-lg inline-block"
               style={{ backgroundColor: "#D9241C" }}
             >
-              Get Involved
+              {t("learnButton", language)}
             </a>
             <a
               href="/services"
               className="border-2 border-white text-white px-8 py-4 rounded-full hover:bg-white hover:text-gray-900 transition-colors duration-300 font-medium text-lg inline-block"
             >
-              Learn About Services
+              {t("learnSelect", language)}
             </a>
           </motion.div>
         </div>
